@@ -6,7 +6,7 @@
     <hr>
 
        <div  class="d-flex ">
-         <FirstConference  :One="false"  :@FirstSWitch="n=$event"/>
+         <FirstConference  :One="false"  :@FirstSWitch="switchOne=$event"/>
 
            <SecondConference :Two="false" />
 
@@ -16,7 +16,7 @@
 {{n}}
     <hr>
     <div class="ShowIdeas">
-                <div id="juk" v-if="n===true" >
+                <div id="juk" >
                     <h2>Software's Architecture : From the bussiness's logic to development</h2>
                         <hr>
                         <b-card no-body class="overflow-hidden" id="confe" >
@@ -31,17 +31,17 @@
                                     
                                     >
                                         <b-carousel-slide
-                                        caption="First slide"
+                                        caption=""
                                         :img-src="require('@/assets/Images/First/1_1 .png')"
                                         class="Slide"
                                         ></b-carousel-slide>
                                         <b-carousel-slide
-                                        caption="Second Slide"
+                                        caption=""
                                         :img-src="require('@/assets/Images/First/2_1.png')"
                                         class="Slide"
-                                        >jhghjgjg</b-carousel-slide>
+                                        >j</b-carousel-slide>
                                         <b-carousel-slide
-                                        caption="Third Slide"
+                                        caption=""
                                         :img-src="require('@/assets/Images/First/3_1.png')"
                                         class="Slide"
                                         ></b-carousel-slide>
@@ -50,18 +50,28 @@
                             <b-col md="6">
                                 <b-card-body >
                                 <b-card-text>
-                                    Software's Architecture : From the bussiness's logic to development
+                                    Here he took the main concepts about the Software Architecture like:
+                                    -What is Software Architecture?
+                                    -How it works?
+                                    -What are the main challenges in a near future?
+
+                                    Some of the concepts that answers those questions are:
+
+                                    -It shows the system's structure, but hide details about implementationbundleRenderer.
+                                    -Lead the delivered requirements from different stakeholdersbundleRenderer.renderToStream
+                                    -Consider the functional and QA requirements.
+
                                 </b-card-text>
                                 
                                 </b-card-body>
-                                <b-button variant="danger" id="bottoms" @click="onClick()">Display</b-button>
+                                
                             </b-col>
                             </b-row>
                         </b-card>
                 
                 </div>
                 
-                <div id="juk" v-if="SwitchTwo===true" >
+                <div id="juk" >
                     <h2>The road to become a Operations Engineer, experiences and learnings</h2>
                         <hr>
                         <b-card no-body class="overflow-hidden" id="confe" >
@@ -76,17 +86,17 @@
                                     
                                     >
                                         <b-carousel-slide
-                                        caption="First slide"
+                                        caption=""
                                         :img-src="require('@/assets/Images/Second/1_1.png')"
                                         class="Slide"
                                         ></b-carousel-slide>
                                         <b-carousel-slide
-                                        caption="Second Slide"
+                                        caption=""
                                         :img-src="require('@/assets/Images/Second/2_1.png')"
                                         class="Slide"
-                                        >jhghjgjg</b-carousel-slide>
+                                        ></b-carousel-slide>
                                         <b-carousel-slide
-                                        caption="Third Slide"
+                                        caption=""
                                         :img-src="require('@/assets/Images/Second/3_1.png')"
                                         class="Slide"
                                         ></b-carousel-slide>
@@ -95,17 +105,25 @@
                             <b-col md="6">
                                 <b-card-body >
                                 <b-card-text>
-                                    The road to become a Operations Engineer, experiences and learnings
+                                    Different concepts about operating were taken.
+                                    For example:
+                                    -Security : Normally operating's people are seen like the ones in charge
+                                    to protect and hold the security inner the organization where they work. Among
+                                    the many roles and occupations that they have , it is needed to make or include different
+                                    strategies that allows better performance in this field.
+                                    -Performance Databases
+                                    -Study computer's networking.
+                                    -Recomendations.
                                 </b-card-text>
                                 
                                 </b-card-body>
-                                <b-button variant="danger" id="bottoms" @click="onClick()">Display</b-button>
+                                
                             </b-col>
                             </b-row>
                         </b-card>
                 </div>
 
-                <div id="juk" v-if="SwitchThree===true" >
+                <div id="juk"  >
                         <h2>Trainbox the idea, product and the union with Playvox</h2>
                         <hr>
                         <b-card no-body class="overflow-hidden" id="confe" >
@@ -120,17 +138,17 @@
                                     
                                     >
                                         <b-carousel-slide
-                                        caption="First slide"
+                                        caption=""
                                         :img-src="require('@/assets/Images/Third/1_1.png')"
                                         class="Slide"
                                         ></b-carousel-slide>
                                         <b-carousel-slide
-                                        caption="Second Slide"
+                                        caption=""
                                         :img-src="require('@/assets/Images/Third/2_1.png')"
                                         class="Slide"
-                                        >jhghjgjg</b-carousel-slide>
+                                        ></b-carousel-slide>
                                         <b-carousel-slide
-                                        caption="Third Slide"
+                                        caption=""
                                         :img-src="require('@/assets/Images/Third/3_1.png')"
                                         class="Slide"
                                         ></b-carousel-slide>
@@ -141,13 +159,31 @@
                                 <b-card-text>
                                     Trainbox the idea, product and the union with Playvox
                                 </b-card-text>
-                                
+                                    Here were taken a lot of different topics related to entrepreneurship , and how was the beginning of 
+                                    a bussiness idea.
+                                    Principally showed how a game's idea was becoming or branching on differents ways and aspects of the bussiness
+                                    . Showed how the opportunities are there waiting for to be taken by people that can reach them and aboard them
+                                    with the enough enthusiasm.
+
+                                    Among all the different game's ideas related to gaming we can find out :
+
+                                    -MaxTurbo
+                                    -SinAbuso
+                                    -VitimaLz
+
+                                    And how the union between playvox and trainbox was done.
+
+                                    Here the main advice and message from the expositor was to engage the people toward the enthusiasm and 
+                                    the hard work with a strong discipline to take challenges, and to make them know that there are a big variety
+                                    of rewards in this field .
                                 </b-card-body>
-                                <b-button variant="danger" id="bottoms" @click="onClick()">Display</b-button>
+                                
                             </b-col>
                             </b-row>
                         </b-card>
                 </div>
+                <br>
+                <hr>
             
     </div>
                
@@ -165,10 +201,10 @@ export default {
     name:'MainSector',
     Data(){
         return{
-            switchOne:false,
+            switchOne:true,
             switchTwo:false,
             switchThree:false,
-            n:false,
+            n:true,
         }
     },
     components:{
@@ -222,8 +258,11 @@ export default {
 
     #juk{
         margin-top: 5%;
-        margin-left:2%;
-        margin-right:2%;
+        margin-left:9%;
+        margin-right:5%;
+        font-size: 25px;
+        margin-bottom: 2%;
+       
     }
    
 </style>
